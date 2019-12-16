@@ -1,0 +1,8 @@
+ @topo ../correction_topologies/ASA_unbound_L_0.0.top
+ @pbc r cog
+ @centre 1:1-4
+ @with s:a
+ @cut 1.4
+ @grid 500
+ @traj ../snapshots/ASA_unbound_L_0.0.cnf
+ 

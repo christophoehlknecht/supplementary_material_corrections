@@ -1,0 +1,12 @@
+@topo ../correction_topologies/PLA2_ASA_bound_L_0.2.top
+@pbc r cog
+@coord ../snapshots/PLA2_ASA_bound_L_0.2.cnf
+@probeIAC 5
+@atoms 1-5:a
+@atomsTOcharge 2:1-4
+@rminORsigma 0
+@schemeELEC RF
+@rcut 1.4
+@epsRF 61
+@epsSOLV 61
+@gridspacing 0.025
