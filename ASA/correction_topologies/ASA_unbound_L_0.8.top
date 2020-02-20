@@ -83,14 +83,13 @@ CH3p
 END
 RESNAME
 # NRAA2: number of residues in a solute molecule
-2
+1
 # AANM: residue names
 ASA
-NA+
 END
 SOLUTEATOM
 #   NRP: number of solute atoms
-   18
+   17
 #  ATNM: atom number
 #  MRES: residue number
 #  PANM: atom name of solute atom
@@ -138,8 +137,6 @@ SOLUTEATOM
     16    1   O8   1 15.99940 -0.07600  0     1    17
                                               0
     17    1   C9  16 15.03500  0.00000  1     0
-                                              0
-    18    2   NA  37 22.98980  1.00000  1     0
                                               0
 END
 BONDSTRETCHTYPE
@@ -2041,24 +2038,24 @@ SOLUTEMOLECULES
 # NSP[1...NSPM]: atom sequence number of last atom
 #                of the successive submolecules
 #      NSPM  NSP[1...NSPM]
-         2
-    17    18
+         1
+    17
 END
 TEMPERATUREGROUPS
 # NSTM: number of temperature atom groups
 # NST[1...NSTM]: atom sequence number of last atom
 #                of the successive temperature atom groups
 #      NSTM  NST[1...NSTM]
-         2
-    17    18
+         1
+    17
 END
 PRESSUREGROUPS
 # NSVM: number of pressure atom groups
 # NSV[1...NSVM]: atom sequence number of last atom
 #                of the successive pressure atom groups
 #      NSVM  NSV[1...NSVM]
-         2
-    17    18
+         1
+    17
 END
 LJEXCEPTIONS
 # This block defines special LJ-interactions based on atom numbers
